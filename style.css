@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+table {
+	background: #c6fff0;
+	border-collapse: collapse;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	font-size: 0.9em;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
+
+th {
+	background: #000;
+	color: #fff;
+  font-weight: bold;
+}
+
+th, td {
+	padding: 10px 15px;
+    border: 1px solid #000;
+}
