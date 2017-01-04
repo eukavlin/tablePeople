@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" viewport="screen">
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <title>Table</title>
 </head>
 
@@ -12,16 +13,26 @@
     <table>
         <thead>
             <tr>
-                <th>Prénom</th>
-                <th>Nom</th>
-                <th>Âge</th>
-                <th>Genre</th>
+                <th>Firstname</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Height (in cm)</th>
             </tr>
         </thead>
         <tbody>
 
         </tbody>
     </table>
+
+    <form id="addpeople" action="index.html" method="post">
+  <input type="text" name="fname" placeholder="Firstame" class="formtop">
+  <input type="text" name="sname" placeholder="Surname">
+  <input type="number" name="age" placeholder="Age">
+  <input type="number" name="heights" placeholder="Height">
+  <button type='submit' >Ajouter</button>
+
+
+    </form>
   </div>
   <script src="app.js" charset="utf-8"></script>
 </body>
